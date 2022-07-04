@@ -1,1 +1,1 @@
-pm2 start "node server.js" -n kuwoMusicApi
+pm2 start "node server.js" -n KuwoMusicApi
