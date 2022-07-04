@@ -20,11 +20,8 @@ export default class SongUrl extends BaseController {
       }
       return false
     }
-    console.log('分界线.....')
-    console.log(ctx.req.headers)
     ctx.body = await service.songUrl.getSongUrl(mid, br, {
       headers: ctx.req.headers,
     })
-    console.log('分界线.....')
   }
 }
